@@ -1,0 +1,151 @@
+#+STARTUP: beamer
+#+TITLE: アジャイル開発と \linebreak そのための人材育成
+#+SUBTITLE: 於:イーブックイニシアティブジャパン
+#+DATE: 2016-10-27
+#+AUTHOR: 産業技術大学院大学 \linebreak 中鉢 欣秀
+#+OPTIONS: H:2 toc:nil ^:nil
+#+BEAMER_THEME: Berkeley
+#+BEAMER_COLOR_THEME: beaver
+#+BEAMER_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_HEADER: \setbeamertemplate{footline}[frame number]
+#+BEAMER_HEADER: \setbeamerfont{frametitle}{size=\large}
+#+BEAMER_HEADER: \setbeamerfont{block title}{size=\normalsize}
+#+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate body begin}{\normalsize}
+#+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
+
+* PBLを通したアジャイル技術者育成
+** 目次
+   #+TOC: headlines [currentsection]
+** 自己紹介
+   - 中鉢欣秀と申します
+     - 産業技術大学院大学（AIIT）准教授
+     - ソフトウェア開発技術者育成について研究
+#+BEAMER: \pause
+   - AIITとは？
+     - 実践的な高度人材を育成する東京都の大学院大学
+     - 修士論文ではなく「 *PBL* 」を通して実務に通用する
+       スキルセットを習得
+     - 学生の *8割が社会人*
+
+** PBLとは？
+   - Project Based Learning
+     - 明確なゴールを設定し， *プロジェクト活動を通して*
+       実践的な課題の解決に取り組む
+#+BEAMER: \pause
+   - 教育手法としての特徴
+     - 教科書や講義だけでは学べない，
+       実務者としての能力を育成
+#+BEAMER: \pause
+   - Active Learning
+     - 学習者の *主体的・能動的な学び* に基づく教育
+     - 「手取り足取り」型の教育ではない， *チーム学習*
+
+** PBLの取り組み事例
+   1. 慶應義塾湘南藤沢キャンパス（SFC）
+      - [[http://collam.bpsinc.jp/][コラボレイティブ・マネジメント型情報教育]]
+      - 社会人がPMとなり学生をマネジメント
+#+BEAMER: \pause
+   2. 産業技術大学院大学（AIIT）
+      - [[http://aiit.ac.jp/][専門職大学院 | 産業技術大学院大学]]
+      - 専門職修士課程2年次対象
+#+BEAMER: \pause
+   3. enPiT ビジネスアプリケーション分野
+      - [[http://enpit.aiit.ac.jp/][enPiT BizApp – 産業技術大学院大学]]
+      - 全国の大学が参加する文科省プロジェクト
+
+** TODO AIITのPBL
+*** AIITにおけるPBLの位置づけ
+    - コンピテンシー
+*** 2015年度の成果物
+    - OoTalk
+
+** enPiT（最終年度）の授業内容
+   1. コラボレイティブ開発特論（90分 x 15回）
+      - Git/GitHub，Sinatra，Heroku，RoR，Travis CI
+#+BEAMER: \pause
+   2. アジャイル開発特論（90分 x 15回）
+      - ワークショップ
+      - ミニPBL
+#+BEAMER: \pause
+   3. ビジネスアプリケーション演習（全8週間）
+      - ハッカソン形式PBL（Demo or Die）
+
+** 事例の前に: PBLにおける「成果」とは？
+   - PBLにおける成果とは，プロジェクトを通して得られた
+     *学習者自身の学び* である！
+#+BEAMER: \pause
+   - PBLで開発したプロダクトとは，あくまでも学生の学びの副産物
+#+BEAMER: \pause
+   - PBLの評価においては *「プロジェクト」と「プロダクト」を分けて*
+     考えるべき
+
+** あいまいランチ						:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** あいまいランチ 						    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - http://aimai-lunch.herokuapp.com/
+    - https://github.com/esodov/wassermann
+
+#+BEAMER: \pause
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+
+[[./figures/aimai-lunch.png]]
+
+** OYACO 							:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** OYACO 							    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - https://github.com/KahokuHanten/oyaco
+    - https://oyaco.herokuapp.com/
+
+#+BEAMER: \pause
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+
+[[./figures/oyaco.png]]
+
+** RyuPiT「SharePla」不定期					:B_fullframe:
+   :PROPERTIES:
+   :BEAMER_env: fullframe
+   :END:
+*** RyuPiT「SharePla」不定期					    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+    - http://sharepla.herokuapp.com/
+    - https://github.com/ryupit
+
+#+BEAMER: \pause
+*** 　								    :B_block:
+    :PROPERTIES:
+    :BEAMER_env: block
+    :BEAMER_COL: 0.48
+    :END:
+[[file:figures/sharepla.png][file:~/git/kochi_appdev/figures/sharepla.png]]
+
+* 企業向けアジャイル開発人材育成
+** 目次
+   #+TOC: headlines [currentsection]
+
+** （別スライド参照）
+* 人材への教育投資による生産性向上
+** 目次
+   #+TOC: headlines [currentsection]
