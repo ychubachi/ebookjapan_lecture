@@ -1,11 +1,12 @@
 #+STARTUP: beamer
-#+TITLE: アジャイル開発と \linebreak そのための人材育成
+#+TITLE: アジャイル開発のための \linebreak 人材育成
 #+SUBTITLE: 於:イーブックイニシアティブジャパン
 #+DATE: 2016-10-27
-#+AUTHOR: 産業技術大学院大学 \linebreak 中鉢 欣秀
+#+AUTHOR: 中鉢 欣秀
 #+OPTIONS: H:2 toc:nil ^:nil
 # #+BEAMER_THEME: Berkeley
 # #+BEAMER_COLOR_THEME: beaver
+#+BEAMER_HEADER: \institute{産業技術大学院大学（AIIT） 准教授}
 #+BEAMER_HEADER: \setbeamertemplate{navigation symbols}{}
 #+BEAMER_HEADER: \setbeamertemplate{footline}[frame number]
 #+BEAMER_HEADER: \setbeamerfont{frametitle}{size=\large}
@@ -13,7 +14,7 @@
 #+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate body begin}{\normalsize}
 #+BEAMER_HEADER: \setbeamertemplate{itemize/enumerate subbody begin}{\normalsize}
 
-* PBLを通したアジャイル技術者育成
+* はじめに
 ** 目次
    #+TOC: headlines [currentsection]
 ** 自己紹介
@@ -27,6 +28,9 @@
        スキルセットを習得
      - 学生の *8割が社会人*
 
+* PBLを通したアジャイル技術者育成
+** 目次
+   #+TOC: headlines [currentsection]
 ** PBLとは？
    - Project Based Learning
      - 明確なゴールを設定し， *プロジェクト活動を通して*
@@ -154,10 +158,14 @@ n
 ** 目次
    #+TOC: headlines [currentsection]
 ** 全国の企業で人手不足
-   - 財務省は25日、全国の企業を対象に実施した人手不足に関する聞き取り調査の結果を発表した。
+   - 財務省は25日、全国の企業を対象に実施した人手不足に関する
+     聞き取り調査の結果を発表した（時事通信 2016/10/25）[2]。
 #+BEAMER: \pause
 
-   - 人手不足を感じていると答えた企業は全体の63．2％に上り、約3社に2社が人材確保の問題に直面している実態が浮き彫りになった。特に中小企業は人手不足との回答が74．7％を占め、より深刻な状況になっている（時事通信 2016/10/25）[2]。
+   - 人手不足を感じていると答えた企業は全体の63．2％に上り、
+     *約3社に2社が人材確保の問題に直面* している実態が浮き彫りになった。
+     特に *中小企業は人手不足との回答が74．7％* を占め、
+     より深刻な状況になっている。
 
 [2]  [[http://headlines.yahoo.co.jp/hl?a=20161025-00000086-jij-pol][6割超が「人手不足」＝財務省調査 （時事通信） - Yahoo!ニュース]]
 
@@ -166,23 +174,21 @@ n
 
 [1] [[http://www.stat.go.jp/data/jinsui/2014np/][統計局ホームページ/人口推計/人口推計（平成26年10月現在）]]
 
-
-** 人手不足が生む生産性向上
-*** 日経新聞 2016/10/25
-   - トラックの運転手が足りない[3]
+** 人手不足が生む生産性向上のための投資
+*** トラックの運転手が足りない！
+   - 日経新聞 2016/10/25[3]
 #+BEAMER: \pause
-*** 「投資」による問題解決
-   - ヤマトホールディング
+*** ヤマトホールディング
 #+BEAMER: \pause
      - 宅配便拠点間輸送に *2両連結のトレーラー*
 #+BEAMER: \pause
-   - 化学6社
+*** 大手化学メーカー6社
 #+BEAMER: \pause
-     - 部品メーカーへの *共同配送*
+     - 部品メーカーへの製品の *共同配送*
 #+BEAMER: \pause
-   - 食品スーパー
+*** 食品スーパーと仕入れ機構
 #+BEAMER: \pause
-     - *鉄道* を使った協同輸送
+     - *鉄道* を使った共同輸送
 
 [3] [[http://www.nikkei.com/article/DGXLASDZ21IAU_U6A021C1MM8000/][物流停滞回避へ企業が自衛策 運転手不足深刻：日本経済新聞]]
 
@@ -195,16 +201,32 @@ n
      - 日本に来てくれるのか？
 #+BEAMER: \pause
    - IT生産性向上=教育投資
-     - *能力の向上が生産性の向上* に直結
-     - 個人/チーム/組織としてのアジリティの向上
+     - 最新のPCを購入すれば生産性が上がる？
+     - *人の能力の向上が生産性の向上* に直結
 
-** 教育への投資が求められる
-   - IT産業が陥りがちなワナ
-     - 安易な残業
-     - 安易な人材追加
+** 教育への投資が求められる理由
+*** IT産業が陥りがちなワナ
+     - 安易な *残業*
+     - 安易な *人材投入*
+     - これらは「量」による問題解決
 #+BEAMER: \pause
-   - 「量」ではなく「質」で解決すべき
+*** 「量」ではなく「質」で解決すべき
+     - 本当に求められるのは質的向上
+     - 資金と時間を投資して *人材の質* を高める
+
+** アジャイル開発による生産性向上
+*** アジャイル開発の真の価値
+    - 個人/チーム/組織としての *アジリティの向上*
+    - 同じ量のリソースで *売上・利益の増大*
 #+BEAMER: \pause
-   - 本当に求められるのは質的向上
-     - 資金と時間を投入して *人材の質* を高める
-     - 同じ量のリソースで *売上・利益の増大*
+*** 生産性向上に繋がる能力の修得
+    - 生産性向上で *賃金も上昇*
+
+* おわりに
+** 目次
+   #+TOC: headlines [currentsection]
+** おわりにかえて
+#+BEAMER: \pause
+   - 産業技術大学院大学（AIIT）はみなさんの
+     ご入学をお待ちしております
+   - http://aiit.ac.jp/
