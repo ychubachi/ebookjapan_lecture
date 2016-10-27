@@ -4,8 +4,8 @@
 #+DATE: 2016-10-27
 #+AUTHOR: 産業技術大学院大学 \linebreak 中鉢 欣秀
 #+OPTIONS: H:2 toc:nil ^:nil
-#+BEAMER_THEME: Berkeley
-#+BEAMER_COLOR_THEME: beaver
+# #+BEAMER_THEME: Berkeley
+# #+BEAMER_COLOR_THEME: beaver
 #+BEAMER_HEADER: \setbeamertemplate{navigation symbols}{}
 #+BEAMER_HEADER: \setbeamertemplate{footline}[frame number]
 #+BEAMER_HEADER: \setbeamerfont{frametitle}{size=\large}
@@ -40,6 +40,15 @@
      - 学習者の *主体的・能動的な学び* に基づく教育
      - 「手取り足取り」型の教育ではない， *チーム学習*
 
+** PBLにおける「成果」とは？
+   - PBLにおける成果とは，プロジェクトを通して得られた
+     *学習者自身の学び* である！
+#+BEAMER: \pause
+   - PBLで開発したプロダクトとは，あくまでも学生の学びの副産物
+#+BEAMER: \pause
+   - PBLの評価においては *「プロジェクト」と「プロダクト」を分けて*
+     考えるべき
+
 ** PBLの取り組み事例
    1. 慶應義塾湘南藤沢キャンパス（SFC）
       - [[http://collam.bpsinc.jp/][コラボレイティブ・マネジメント型情報教育]]
@@ -53,13 +62,17 @@
       - [[http://enpit.aiit.ac.jp/][enPiT BizApp – 産業技術大学院大学]]
       - 全国の大学が参加する文科省プロジェクト
 
-** TODO AIITのPBL
+** AIITのPBL
 *** AIITにおけるPBLの位置づけ
-    - コンピテンシー
-*** 2015年度の成果物
+    - 「コンピテンシー」を教育
+    - 1年間をかけてソフトウェア開発方法論を学ぶ
+#+BEAMER: \pause
+*** 2015年度の活動と成果
+    - _Scrum Based Research_
     - OoTalk
+      - [[https://github.com/SBR2015/ootalk][OoTalk interpreter]]
 
-** enPiT（最終年度）の授業内容
+** enPiTプログラム（2016年度）
    1. コラボレイティブ開発特論（90分 x 15回）
       - Git/GitHub，Sinatra，Heroku，RoR，Travis CI
 #+BEAMER: \pause
@@ -69,15 +82,6 @@
 #+BEAMER: \pause
    3. ビジネスアプリケーション演習（全8週間）
       - ハッカソン形式PBL（Demo or Die）
-
-** 事例の前に: PBLにおける「成果」とは？
-   - PBLにおける成果とは，プロジェクトを通して得られた
-     *学習者自身の学び* である！
-#+BEAMER: \pause
-   - PBLで開発したプロダクトとは，あくまでも学生の学びの副産物
-#+BEAMER: \pause
-   - PBLの評価においては *「プロジェクト」と「プロダクト」を分けて*
-     考えるべき
 
 ** あいまいランチ						:B_fullframe:
    :PROPERTIES:
@@ -120,7 +124,7 @@
     :END:
 
 [[./figures/oyaco.png]]
-
+n
 ** RyuPiT「SharePla」不定期					:B_fullframe:
    :PROPERTIES:
    :BEAMER_env: fullframe
@@ -139,7 +143,7 @@
     :BEAMER_env: block
     :BEAMER_COL: 0.48
     :END:
-[[file:figures/sharepla.png][file:~/git/kochi_appdev/figures/sharepla.png]]
+[[./figures/sharepla.png]]
 
 * 企業向けアジャイル開発人材育成
 ** 目次
@@ -149,3 +153,58 @@
 * 人材への教育投資による生産性向上
 ** 目次
    #+TOC: headlines [currentsection]
+** 全国の企業で人手不足
+   - 財務省は25日、全国の企業を対象に実施した人手不足に関する聞き取り調査の結果を発表した。
+#+BEAMER: \pause
+
+   - 人手不足を感じていると答えた企業は全体の63．2％に上り、約3社に2社が人材確保の問題に直面している実態が浮き彫りになった。特に中小企業は人手不足との回答が74．7％を占め、より深刻な状況になっている（時事通信 2016/10/25）[2]。
+
+[2]  [[http://headlines.yahoo.co.jp/hl?a=20161025-00000086-jij-pol][6割超が「人手不足」＝財務省調査 （時事通信） - Yahoo!ニュース]]
+
+** 我が国の生産年齢人口の減少[1]
+   [[./figures/05k26-3.png]]
+
+[1] [[http://www.stat.go.jp/data/jinsui/2014np/][統計局ホームページ/人口推計/人口推計（平成26年10月現在）]]
+
+
+** 人手不足が生む生産性向上
+*** 日経新聞 2016/10/25
+   - トラックの運転手が足りない[3]
+#+BEAMER: \pause
+*** 「投資」による問題解決
+   - ヤマトホールディング
+#+BEAMER: \pause
+     - 宅配便拠点間輸送に *2両連結のトレーラー*
+#+BEAMER: \pause
+   - 化学6社
+#+BEAMER: \pause
+     - 部品メーカーへの *共同配送*
+#+BEAMER: \pause
+   - 食品スーパー
+#+BEAMER: \pause
+     - *鉄道* を使った協同輸送
+
+[3] [[http://www.nikkei.com/article/DGXLASDZ21IAU_U6A021C1MM8000/][物流停滞回避へ企業が自衛策 運転手不足深刻：日本経済新聞]]
+
+** IT企業に求められる人材育成
+   - 人手不足の深刻化
+     - *能力のある人材* の取り合い
+#+BEAMER: \pause
+   - 外国人技術者は救世主か？
+     - トップレベルは *グローバルな獲得競争*
+     - 日本に来てくれるのか？
+#+BEAMER: \pause
+   - IT生産性向上=教育投資
+     - *能力の向上が生産性の向上* に直結
+     - 個人/チーム/組織としてのアジリティの向上
+
+** 教育への投資が求められる
+   - IT産業が陥りがちなワナ
+     - 安易な残業
+     - 安易な人材追加
+#+BEAMER: \pause
+   - 「量」ではなく「質」で解決すべき
+#+BEAMER: \pause
+   - 本当に求められるのは質的向上
+     - 資金と時間を投入して *人材の質* を高める
+     - 同じ量のリソースで *売上・利益の増大*
